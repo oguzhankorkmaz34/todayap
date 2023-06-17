@@ -1,0 +1,185 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+body {
+    background-color: #04b7db;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 50px 0px 10px 0px;
+    color: #FF871F;
+    word-spacing: 15px;
+}
+
+
+
+.search input[type=text] {
+    border: none;
+    color: white;
+    background-color: #00768F;
+
+}
+
+.search input[type=text]:focus {
+    outline: 2px solid rgb(255, 135, 31);
+    box-shadow: 0 0 10px #005f72;
+    color: white;
+    background-color: #00768F;
+    border-radius: 5px;
+}
+
+.search1 {
+
+    width:500px;
+    background-color: #00768F;
+    margin-top: 15px;
+    padding: 18px;
+    color: white;
+    font-size: x-large;
+   
+
+
+}
+.search
+{
+    display: flex;
+    justify-content: center;
+}
+
+input::placeholder {
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.liste {
+    width: 526px;
+    height: 50px;
+    list-style-type: none;
+    background-color: #FF871F;
+    color: white;
+    line-height: 50px;
+    padding-left: 10px;
+    display: flex;
+    justify-content:space-between;
+    border-bottom:1px solid #00768F;
+   border-radius: 2px;
+    
+
+   
+    
+
+
+
+}
+
+.listcap
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+   
+    
+    
+}
+
+
+img {
+    width: 35px;
+    float: right;
+    padding: 4px 4px 0px 0px;
+    cursor: pointer;
+   
+}
+.filtered
+{
+    display: none !important;
+}
